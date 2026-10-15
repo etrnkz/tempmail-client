@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tempmail-client"
+version = "0.1.0"
+description = "Unofficial Temp-Mail Python Client & Interactive Terminal UI (Reverse-Engineered)"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [
+    { name = "etrnzk" }
+]
+requires-python = ">=3.8"
+dependencies = [
+    "textual>=0.50.0"
+]
+keywords = [
+    "tempmail",
+    "disposable-email",
+    "temporary-email",
+    "email-api",
+    "reverse-engineered",
+    "tui",
+    "textual",
+    "otp-extractor"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Topic :: Communications :: Email",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[project.scripts]
+tempmail = "tempmail.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/etrnzk/tempmail-client"
+Repository = "https://github.com/etrnzk/tempmail-client"
+
+[tool.setuptools]
+packages = ["tempmail"]

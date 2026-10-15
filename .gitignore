@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# APK and reverse-engineering artifacts
+apktool_out/
+jadx_out/
+jadx_utils/
+*.apk
+*.zip
+
+# Local configurations / secrets / state
+tempmail_settings.json
+.tempmail_config.json
+.env
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
